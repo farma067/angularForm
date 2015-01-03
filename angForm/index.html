@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>AngularJs Service</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+</head>
+
+<body ng-app="myModule" ng-controller="myController">
+ <div class="form">
+  <form action="" class=""/>
+
+   <div>
+       <label for="name">Name</label>
+       <input type="text" ng-model="name"/>
+
+   </div>
+   <div>
+    <label for="zip">Zip</label>
+    <input type="text" ng-model="zip" ng-change="textChanged()"/>
+   </div>
+
+   <div>
+    <label for="country">Country</label>
+	<input type="text" ng-model="country"/>
+   </div>
+
+   <div>
+     <label for="state">State</label>
+	<input type="text" ng-model="state"/>
+   </div>
+
+   <div>
+     <label for="city">City</label>
+	<input type="text" ng-model="city"/>
+   </div>
+
+
+    <button ng-click="">Submit</button>
+   </form>
+  </div>
+
+  <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
